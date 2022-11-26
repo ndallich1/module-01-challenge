@@ -1,13 +1,16 @@
+/* Resets the box size of every element */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Sets the background color of the body */
 body {
     background-color: #d9dcd6;
 }
 
+/* Sets the padding of the header to 20px on all sides, sets the font family and default fonts, and sets the background and text colors */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,24 +18,29 @@ header {
     color: #ffffff;
 }
 
+/* Sets the font size to 48px for the h1 heading and generates a block element */
 h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Sets the font size to 20px for each h2 heading */
 h2 {
     font-size: 20px;
 }
 
+/* Centers each h3 heading with a margin on the bottom of 10px */
 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Sets the color of the "seo" class */
 .seo {
     color: #d9dcd6;
 }
 
+/* Sets a padding in the top of the nav bar to 15px and the margin on the right to 20px. Floats the ul in the nav bar to the right. Sets the font size and font family as well as default font-family values. */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -41,20 +49,24 @@ nav {
     font-size: 20px;
 }
 
+/* Removes default bullet points from the unordered list */
 ul {
     list-style-type: none;
 }
 
+/* Generates a block element box with a margin of 25px on the left side of each list item */
 li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Sets the color of each anchor item to white */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Sets the hero class to have an image with a height of 800px and width of 100% to fill the viewport width. Sets a 25px margin on the bottom. */
 .hero {
     height: 800px;
     width: 100%;
@@ -64,10 +76,12 @@ a {
     background-position: center;
 }
 
+/* Sets the class "float-right" to float to the right and have a margin on the left side of 25px */
 .float-right {
     float: right;
     margin-left: 25px;
 }
+
 
 .content {
     width: 75%;
@@ -75,6 +89,7 @@ a {
     margin-left: 20px;
 }
 
+/* Sets the class "search-engine-optimization" to have a 20px bottom margin, 50px padding, height of 300px, a list of font-families to display in order, and a background and text color */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -84,15 +99,18 @@ a {
     color: #ffffff;
 }
 
+/* Sets the class "float-left" to float to the left and have a margin on the right side of 25px */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Sets the font size of every paragraph to 16px */
 p {
     font-size: 16px;
 }
 
+/* Sets the "benefits" class to have a right margin of 20px, padding of 20px, float to the right, a width of 20% of the section, a height of 100% of the section, a list of font-families to display in order, and a background color */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -104,40 +122,46 @@ p {
     background-color: #2589bd;
 }
 
+/* Sets the class "benefit-lead" to have a 32px bottom margin and a text color of white */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Sets the class "benefit-brand" to have a 32px bottom margin and a text color of white */ 
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Sets the class "benefit-cost" to have a 32px bottom margin and a text color of white */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-
+/* Sets the image in the class "benefit-lead" to a block item, have a 10px margin on the top and auto margins on the right, bottom, and left and have a max-width of 150px */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
+/* Sets the image in the class "benefit-brand" to a block item, have a 10px margin on the top and auto margins on the right, bottom, and left and have a max-width of 150px */
+ img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Sets the image in the class "benefit-brand" to a block item, have a 10px margin on the top and auto margins on the right, bottom, and left and have a max-width of 150px */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Sets the class "online-reputation-management" to have a bottom margin of 20px, padding of 50px, height of 300px, a list of font-families to display in order, and a background and text color */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -147,6 +171,7 @@ p {
     color: #ffffff;
 }
 
+/* Sets the class "social-media-marketing" to have a bottom margin of 20px, padding of 50px, height of 300px, a list of font-families to display in order, and a background and text color */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -156,33 +181,22 @@ p {
     color: #ffffff;
 }
 
+/* Sets the class "search-engine-optimization" image to have a height of 200px */
 .search-engine-optimization img {
-    max-height: 200px;
+    max-height: 250px;
 }
 
+/* Sets the class "online-reputation-management" image to have a height of 200px */
 .online-reputation-management img {
-    max-height: 200px;
+    max-height: 250px;
 }
 
+/* Sets the class "social-media-marketing" image to have a height of 200px */
 .social-media-marketing img {
-    max-height: 200px;
+    max-height: 250px;
 }
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Sets the footder to have a padding of 30px, a list of font families to display, and align in the center of the page */
 footer {
     padding: 30px;
     clear: both;
