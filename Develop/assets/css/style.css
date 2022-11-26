@@ -24,9 +24,10 @@ h1 {
     font-size: 48px;
 }
 
-/* Sets the font size to 20px for each h2 heading */
+/* Sets each h2 heading to have a font size to 32px and 10px padding on bottom */
 h2 {
-    font-size: 20px;
+    font-size: 32px;
+    padding-bottom: 10px;
 }
 
 /* Centers each h3 heading with a margin on the bottom of 10px */
@@ -147,11 +148,11 @@ p {
     max-width: 150px;
 }
 
-/* Sets the image in the class "benefit-brand" to a block item, have a 10px margin on the top and auto margins on the right, bottom, and left and have a max-width of 150px */
+/* Sets images to a block item, have a 10px margin on the top and auto margins on the right, bottom, and left and have a max-width of 250px */
  img {
     display: block;
     margin: 10px auto;
-    max-width: 150px;
+    max-width: 250px;
 }
 
 /* Sets the image in the class "benefit-brand" to a block item, have a 10px margin on the top and auto margins on the right, bottom, and left and have a max-width of 150px */
