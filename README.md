@@ -6,5 +6,7 @@ This project was built using starter code from Xander Rapstine on GitHub. It is 
 
 To navigate to the website, paste the following link into your browser:
 
-(insert link here after deployment)
+https://ndallich1.github.io/module-01-challenge/
+
+[website image] (https://github.com/ndallich1/module-01-challenge/blob/main/Develop/assets/images/website-landing-page.jpg)
 
