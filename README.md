@@ -4,7 +4,14 @@ This project was built using starter code from Xander Rapstine on GitHub. It is 
 
 # Usage
 
-To navigate to the website, paste the following link into your browser:
+To navigate to the website, click [Here](https://ndallich1.github.io/module-01-challenge/)
 
-(insert link here after deployment)
+
+
+![website image](./Develop/assets/images/website-landing-page.jpg)
+
+
+# Credits 
+
+[Xander Rapstine](https://github.com/Xandromus)
 
